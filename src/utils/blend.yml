@@ -1,0 +1,7 @@
+# Default configuration for blending.
+#
+# blend.py will blend one model for each top level key using the
+# feature files listed under the corresponding key
+#
+3x3_skip_0:
+    - vgg_224_train_mean_iter_1_skip_0_fold_f0xf1.npy
