@@ -1,26 +1,13 @@
 KNOWLEDGE TRANSFER FOR MELANOMA SCREENING WITH DEEP LEARNING
 =========================
 
-This repository contains the implementation of simple and double
-transfer learning schemes to classify melanoma images, using
-pre-trained generic models like ImageNet and training specific
-models with a diabetic retinopaty dataset. We have compared them
-in the paper "Knowledge Transfer for Melanoma Screening with Deep
-Learning" (under review).
+This repository contains the implementation of simple and double transfer learning schemes to classify melanoma images, using pre-trained generic models like ImageNet and training specific models with a diabetic retinopaty dataset. We have compared them in the paper "Knowledge Transfer for Melanoma Screening with Deep Learning" (published at ISBI 2017).
 
+You can find more details about the concepts and parametrization of each technique at the paper. The codes available in this repository are already parametrized according to the details provided in the final text.
 
-You can find more details about the concepts and parametrization
-of each technique at the paper. The codes available in this repository
-are already parametrized according to the details provided in the final
-text (which will also be available after revision period).
-
-The source codes of this repository is a branch of [team o_O for the
-diabetic retinopath competition](https://github.com/sveitser/kaggle_diabetic).
-Some Bash and Python scripts were modified to adapt the codes for
-melanoma screening problem.
+The source codes of this repository is a branch of [team o_O for the diabetic retinopath competition](https://github.com/sveitser/kaggle_diabetic). Some Bash and Python scripts were modified to adapt the codes for melanoma screening problem.
 
 If you use this work in any academic/official context, please cite us. The relevant references are below.
-
 
 TABLE OF CONTENTS
 ------------------
@@ -33,9 +20,7 @@ TABLE OF CONTENTS
 DEPENDENCIES
 -------------
 
-Note: we assume that the codes available here will be run on an
-Unix OS. You will only need to download [ImageMagick](http://www.imagemagick.org/script/index.php) and Python
-(we strongly suggest to use the Anaconda package).
+Note: we assume that the codes available here will be run on an Unix OS. You will only need to download [ImageMagick](http://www.imagemagick.org/script/index.php) and Python (we strongly suggest to use the Anaconda package).
 
 After dependencies are installed, run the command in the root folder:
 
@@ -84,8 +69,7 @@ In the "Data" tab, download all the zipped train dataset (32.68Gb total), unzip 
 
 	./fetch.sh --retina --infolder <flat retina images path> --outfolder <resized retina images path>
 
-Now that you have the ImageNet pre-trained model and both melanoma and retina datasets in two separate flat folders,
-please go to settings.py and update the "Path to resized images" section with the output folder you used in step 2 and 3.
+Now that you have the ImageNet pre-trained model and both melanoma and retina datasets in two separate flat folders, please go to settings.py and update the "Path to resized images" section with the output folder you used in step 2 and 3.
 
 RUNNING
 --------
