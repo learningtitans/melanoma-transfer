@@ -79,7 +79,19 @@ The paper describes three protocols numbered from 1 to 3 with six experiments ea
 
 where:
 
-[PROTOCOL] = 'protocol1' or 'protocol2' or 'protocol3'
+[PROTOCOL] = 'protocol1' or 'protocol2' or 'protocol3', where:
+
+	protocol1: The dataset is divided into two classes: Malignant vs. Benign lesions. 
+		Melanomas and Basal Cell Carcinomas are considered Malignant (positive cases).
+		All other diagnoses are considered Benign (negative cases).
+		
+	protocol2: The dataset is divided into two classes: Melanoma vs. Benign lesions.
+		Melanomas are positive cases.
+		All others diangoses are considered Benign (negative cases), except for Basal Cell Carcinomas, which are removed.
+		
+	protocol3: The dataset is divided into three classes: Basal Cell Carcimona vs. Melanoma vs. Benign lesions.
+		All other dianoses are considered as Benign lesions.
+		
 [EXPERIMENT] = 'A' to 'F', where:
 
 	A: Training and testing a network from scratch with melanoma images;
