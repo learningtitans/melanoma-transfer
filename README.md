@@ -77,7 +77,7 @@ The paper describes three protocols numbered from 1 to 3 with six experiments ea
 
 	./main.sh -p [PROTOCOL] -e [EXPERIMENT]
 
-where:
+with:
 
 [PROTOCOL] = 'protocol1' or 'protocol2' or 'protocol3', where:
 
