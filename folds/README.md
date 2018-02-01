@@ -1,5 +1,5 @@
 ## protocol.yml
-These are contains the names of the images used in each experiment.
+Thse are the names of the images used in each experiment.
 
 One line within a fold is used to train, and the other to test, and vice versa.
 
