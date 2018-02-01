@@ -87,10 +87,10 @@ with:
 		
 	protocol2: The dataset is divided into two classes: Melanoma vs. Benign lesions.
 		Melanomas are positive cases.
-		All others diangoses are considered Benign (negative cases), except for Basal Cell Carcinomas, which are removed.
+		All others diagnoses are considered Benign (negative cases), except for Basal Cell Carcinomas, which are removed.
 		
-	protocol3: The dataset is divided into three classes: Basal Cell Carcimona vs. Melanoma vs. Benign lesions.
-		All other dianoses are considered as Benign lesions.
+	protocol3: The dataset is divided into three classes: Basal Cell Carcinoma vs. Melanoma vs. Benign lesions.
+		All other diagnoses are considered as Benign lesions.
 		
 [EXPERIMENT] = 'A' to 'F', where:
 
